@@ -136,6 +136,10 @@ class RockPaperScissors {
                 this.playerImage.classList = 'cardProfile lose'
                 this.computerImage.classList = 'cardProfile win'
             }
+            let playAgain = confirm('Would you like to play again?');
+            if (playAgain) {
+                this.init();
+            }
         }, 2000);
         alert('Player has ' + (this.playerWon ? 'WON' : 'LOST'));
         this.btnStart.classList.add('hidden');
