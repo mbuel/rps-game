@@ -90,3 +90,15 @@ a:hover {
 #btn-new {
   cursor: pointer;
 }
+
+.win {
+  background-image:  url(../images/win.png);
+}
+
+.lose {
+  background-image:  url(../images/lose.png);
+}
+
+.hidden {
+  display: none;
+}
