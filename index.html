@@ -5,8 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/brands.min.css">
+
+
 </head>
 <body>
-    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Human -->
+            <div class="col-md-4 col-sm-12 border-info pt-5">
+                &nbsp;
+                test
+            </div>
+            <!-- Score Board -->
+            <div class="col-md-4 col-sm-12 pt-5">
+                <div class="row">
+                    <div class="col-4 pl-4">
+                        <label for="rounds-choice">Number of Rounds:</label>
+                    </div>
+                    <div class="col-4 "">
+                        <select name="rounds-choice" id="rounds-choice" class="list-group-item-info"> 
+                            <option value="one">1 -- round</option>
+                            <option value="three">3 -- rounds</option>
+                        </select>
+                    </div>
+                    <div class="col-4">
+                        <div id="btn-new" class="btn-outline-success">NEW GAME</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-6 pl-4">
+                        <div id="score--player" class="score">
+                            Player Score: <span id="score-player-current" class="border-bottom">0</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div id="score--computer" class="score">
+                            Computer Score: <span id="score-player-current" class="border-bottom">0</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4 pl-4">
+                        <label for="player-choice">What Will You Play?</label>
+                    </div>
+                    <div class="col-4">
+                        <select name="player-choice" id="rps-choice" class="list-group-item-info"> 
+                            <option value="rock">Rock</option>
+                            <option value="scissors">Scissors</option>
+                            <option value="paper">Paper</option>
+                        </select>
+                    </div>
+                    <div class="col-4">
+                        <div id="btn-start" class="btn-outline-success">Play</div>
+                    </div>
+                </div>
+            </div>
+            <!-- PC -->
+            <div class="col-md-4 col-sm-12 pt-5">
+                &nbsp;
+                test
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap-dropdown.js"></script>
+    <script src="./js/fontawesome.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/brands.min.css">
 </body>
 </html>
