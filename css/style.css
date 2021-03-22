@@ -82,3 +82,11 @@ a:hover {
 .scissors {
   background-image: url(../images/scissors.jpg);
 }
+
+#btn-start {
+  cursor: pointer;
+}
+
+#btn-new {
+  cursor: pointer;
+}
