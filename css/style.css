@@ -27,14 +27,14 @@ a {
   position: relative;
   top: -1px;
   left: -1px;
-  color: var(--rgba-primary-font-link) !important;
+  color: var(--rgba-top-color-0) !important;
   transition: position 1s;
 }
 
 a:hover {
   top: 1px;
   left: 1px;
-  color: var(--rgba-primary-font-link-hover) !important;
+  color: var(--rgba-secondary-2-0) !important;
   text-decoration: none !important;
   font-size: 1.1em;
 }
@@ -101,4 +101,12 @@ a:hover {
 
 .hidden {
   display: none;
+}
+footer {
+  position:fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: var(--rgba-bottom-color-1-0);
+  color: white;
+  text-align: center;
 }
